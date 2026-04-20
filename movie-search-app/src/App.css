@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+  min-height: 100vh;
+}
+
+/* ── Home Page ── */
+.home {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.search-container input {
+  width: 400px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: 2px solid #333;
+  background: #1a1a1a;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.search-container input:focus {
+  border-color: #e50914;
+}
+
+.search-container button {
+  padding: 12px 24px;
+  border-radius: 50px;
+  border: none;
+  background: #e50914;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.search-container button:hover {
+  background: #b20710;
+}
+
+/* ── Movies Grid ── */
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 24px;
+}
+
+/* ── Movie Card ── */
+.movie-card {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 40px rgba(229, 9, 20, 0.3);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.movie-info {
+  padding: 12px;
+}
+
+.movie-info h3 {
+  font-size: 14px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-info p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* ── Movie Detail ── */
+.movie-detail {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.movie-detail button {
+  background: #e50914;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.detail-content {
+  display: flex;
+  gap: 40px;
+}
+
+.detail-content img {
+  width: 300px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.detail-info h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.detail-info p {
+  margin-bottom: 12px;
+  font-size: 16px
