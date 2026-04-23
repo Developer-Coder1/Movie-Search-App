@@ -66,5 +66,6 @@ I built this with significant AI assistance (Claude) — the design and most of 
 
 I'm 14, based in the UK, working toward a Level 6 software engineering apprenticeship after sixth form.
 
-<img width="1887" height="1031" alt="image" src="https://github.com/user-attachments/assets/fb14a5c7-02b6-4e4c-8ec2-819113a31764" />
+<img width="1906" height="1037" alt="image" src="https://github.com/user-attachments/assets/0daeb567-0061-480a-9e9b-4d42b1654489" />
+
 <img width="1913" height="1043" alt="image" src="https://github.com/user-attachments/assets/c59aa9a7-cf1a-4966-a2cc-e67bf4cfb01b" />
