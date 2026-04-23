@@ -2,6 +2,7 @@
 
 A web app that lets you search for movies by title and view details like poster, year, rating, and plot.
 
+**Live demo:** https://movie-search-coder1.netlify.app
 
 ## What it does
 
